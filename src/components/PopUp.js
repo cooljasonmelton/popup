@@ -19,7 +19,7 @@ const PopUp = props => {
             </div>
             <div className="pu-button-container">
                 <button onClick={()=> setPopUp(false)}> MORE BONES! </button>
-                <button onClick={()=> setPopUp(false)}> no, thank you </button>
+                <button onClick={()=> setPopUp(false)}> No, thank you. </button>
             </div>
 
 
