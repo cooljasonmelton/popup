@@ -1,0 +1,136 @@
+* {
+    padding: 0;
+    margin: 0;
+}
+button:focus{
+    outline: none;
+}
+button:hover{
+    cursor: pointer;
+}
+
+.Checkout{
+    width: 100%;
+    height: 100vh;
+}
+
+.during-popup{
+    background: linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7));
+}
+
+.nav{
+    width: 100%;
+    height: 10%;
+    background-color: #011627;
+    display: flex;
+    align-items: center;
+    color: #FDFFFC;
+}
+
+.nav > h1 {
+    margin-left: 2em;
+    font-size: 5em;
+}
+
+.cart{
+    width: 100%;
+    margin-top: 4em;
+    background-color: #FDFFFC;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    display: flex;
+    align-items: center;
+    color: #011627;
+}
+
+.cart > table {
+    width: 70%;
+}
+
+.cart > table, th, td {
+    border: 1px solid #011627;
+    border-collapse: collapse;
+    font-size: 1.2em;
+
+    text-align: left;
+    padding: 1em;
+}
+
+.cart > table > tr > th {
+    font-weight: bold;
+    border: thick solid #011627;
+    text-align: center;
+    background-color: #FF9F1C;
+}
+
+.total{
+    font-weight: bold;
+}
+
+.cart > button {
+    border: 2px solid #011627;
+    border-radius: 2em;
+    font-size: 1.2em;
+    text-align: left;
+    margin-top: 0.5em;
+    padding: 1em;
+    background-color: #2EC4B6;
+}
+.cart > button:hover{
+    background-color: #E71D36;
+    cursor: pointer;
+}
+
+/* POP UP */
+
+.PopUp{
+    position: absolute;
+
+    left: 25%;
+    top: 30%;
+
+    width: 50%;
+    
+    border: 1px solid #011627;
+    border-radius: 1em;
+    box-shadow: 1px 1px 2px #011627;
+    background-color: #FDFFFC;
+    color: #011627;
+    
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.popup-x{
+    align-self: flex-end;
+    justify-self: flex-start;
+    border-top-right-radius: 1em;
+    width: 3em;
+    height: 2em;
+    border: none;
+    border-bottom: 1px solid black;
+    border-left: 1px solid black;
+}
+
+
+.pu-button-container{
+    margin-bottom: 0.5em;
+}
+
+.pu-button-container > button{
+    padding: 0.5em;
+}
+
+.pu-img{
+    width: 20%;
+}
+
+.pu-content-container{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
