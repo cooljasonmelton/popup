@@ -1,15 +1,16 @@
 /* colors: https://coolors.co/011627-fdfffc-2ec4b6-e71d36-ff9f1c */
-
 * {
     padding: 0;
     margin: 0;
 }
 
 button{
-    border: 2px solid #011627;
-    background-color: #2EC4B6;
     padding: 0.5em;
+
+    background-color: #2EC4B6;
+    border: 2px solid #011627;
     border-radius: 0.3em;
+
     transition: 0.3s;
 }
 
@@ -21,7 +22,6 @@ button:hover{
     cursor: pointer;
     background-color: #E71D36;
 }
-
 
 .Checkout{
     width: 100%;

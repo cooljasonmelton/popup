@@ -28,12 +28,12 @@ const Checkout = () => {
                     <th className={duringPopUp}>Price</th>
                 </tr>
                 <tr>
-                    <td>Cabbage</td>
+                    <td>Pink Lemonade</td>
                     <td>x1</td>
                     <td>$1.00</td>
                 </tr>
                 <tr>
-                    <td>Tofu</td>
+                    <td>Brownies</td>
                     <td>x1</td>
                     <td>$3.00</td>
                 </tr>
