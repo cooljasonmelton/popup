@@ -1,12 +1,26 @@
+/* colors: https://coolors.co/011627-fdfffc-2ec4b6-e71d36-ff9f1c */
 * {
     padding: 0;
     margin: 0;
 }
+
+button{
+    padding: 0.5em;
+
+    background-color: #2EC4B6;
+    border: 2px solid #011627;
+    border-radius: 0.3em;
+
+    transition: 0.3s;
+}
+
 button:focus{
     outline: none;
 }
+
 button:hover{
     cursor: pointer;
+    background-color: #E71D36;
 }
 
 .Checkout{
@@ -69,17 +83,11 @@ button:hover{
 }
 
 .cart > button {
-    border: 2px solid #011627;
     border-radius: 2em;
     font-size: 1.2em;
     text-align: left;
     margin-top: 0.5em;
     padding: 1em;
-    background-color: #2EC4B6;
-}
-.cart > button:hover{
-    background-color: #E71D36;
-    cursor: pointer;
 }
 
 /* POP UP */
@@ -94,7 +102,7 @@ button:hover{
     
     border: 1px solid #011627;
     border-radius: 1em;
-    box-shadow: 1px 1px 2px #011627;
+    box-shadow: -2px 5px 5px #E71D36;
     background-color: #FDFFFC;
     color: #011627;
     
@@ -115,13 +123,8 @@ button:hover{
     border-left: 1px solid black;
 }
 
-
 .pu-button-container{
     margin-bottom: 0.5em;
-}
-
-.pu-button-container > button{
-    padding: 0.5em;
 }
 
 .pu-img{
