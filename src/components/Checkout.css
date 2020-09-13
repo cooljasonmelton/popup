@@ -28,19 +28,15 @@ button:hover{
     height: 200vh;
 }
 
-.during-popup{
-    background: linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7));
-}
-
 .nav{
     width: 100%;
     height: 5em;
-
+    
     background-color: #011627;
-
+    
     display: flex;
     align-items: center;
-
+    
     color: #FDFFFC;
 }
 
@@ -55,7 +51,7 @@ button:hover{
     width: 100%;
     
     background-color: #FDFFFC;
-
+    
     display: flex;
     align-items: center;
     flex-direction: column;
@@ -70,11 +66,11 @@ button:hover{
 .cart > table, th, td {
     border: 1px solid #011627;
     border-collapse: collapse;
-
+    
     padding: 1em;
     
     font-size: 1.2em;
-
+    
     text-align: left;
 }
 
@@ -85,20 +81,23 @@ button:hover{
     font-weight: bold;
 }
 
-.total{
+.total {
     font-weight: bold;
 }
 
 .cart > button {
     margin-top: 0.5em;
-
+    
     border-radius: 2em;
     
     padding: 1em;
-
+    
     font-size: 1.2em;
 }
 
+.during-popup{
+    background: linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7));
+}
 /* POP UP */
 
 .PopUp{
